@@ -17,6 +17,7 @@ public class ServerApplication {
         System.out.println("bCrypt :  : " + hashedPassword);
         Boolean right = passwordEncoder.matches("loisceka", hashedPassword);
         System.out.println(right);
+        System.out.println("TRUE");
     }
 
 }
